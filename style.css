@@ -1,0 +1,25 @@
+* {
+box-sizing : border-box;
+}
+
+.brand {
+    color:white;
+}
+
+.header {
+    background-color: #077caa;
+    padding: 20px;
+}
+
+.title .header {
+    color :white;
+    font-size: 25px;
+}
+
+.header ul {
+    list-style: none; 
+}
+
+.header ul a {
+    color:white;
+}
