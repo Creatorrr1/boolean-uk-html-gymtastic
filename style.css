@@ -1,25 +1,38 @@
+/* Compulsary snippet thats required on all projects */
 * {
-box-sizing : border-box;
-}
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing : border-box;
+} 
 
-.brand {
-    color:white;
-}
+
 
 .header {
     background-color: #077caa;
-    padding: 20px;
+    
 }
 
-.title .header {
+/* All text in the header section and brand is in white */
+.header .brand {
     color :white;
     font-size: 25px;
-}
-
-.header ul {
-    list-style: none; 
+    
 }
 
 .header ul a {
     color:white;
+    
+}
+
+/* This removes the the bullet points */
+.header ul {
+    list-style: none; 
+    
+}
+
+
+
+.title-section {
+    color:#077caa;
 }
