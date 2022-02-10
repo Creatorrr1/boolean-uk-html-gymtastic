@@ -22,6 +22,7 @@
 
 .header ul a {
     color:white;
+    text-decoration: none;
     
 }
 
@@ -31,8 +32,36 @@
     
 }
 
+.title-section,
+.top-section,
+.follow-us {
+    padding: 10px;
+}
+
+.follow-us {
+    color:#077caa
+}
+
+.header ul li {
+    margin-right: 20px;
+}
+/* The orange border isn't being overwriiten for some reason */
+.Membership{
+    display: inline-block;
+    color:orange;
+    padding: 10px 20px;
+    border: solid 2 px orange;
+    margin-top: 20px;
+    border-radius: 10px;
+}
 
 
 .title-section {
     color:#077caa;
+}
+
+.top-section,
+.follow-us-link {
+ 
+
 }
